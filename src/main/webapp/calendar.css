@@ -1,0 +1,74 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+.month{
+    border: 1px solid;
+}
+.month table {
+    border: 1px solid black; 
+}
+
+.month th {
+    border: 1px solid black;
+    padding: 50px;
+}
+
+.month tr {
+	border: 1px solid black;
+}
+
+.month td {
+	border: 1px solid black;
+	padding: 50px;
+}
+
+.day-field-wrapper{
+    text-align: center;
+}
+
+.events-wrapper{
+    text-align: center;
+}
+
+.days-row{
+    text-align: center;  
+}
+
+.days-row th {
+	color: #5584AC;
+}
+
+
+.today{
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    -moz-border-radius: 30px; /* or 50% */
+    border-radius: 30px; /* or 50% */
+    background-color: skyblue;
+    color: white;
+    text-align: center;
+    font-size: 1em;
+    display: table;
+    margin: 0 auto;
+}
+.event{
+    background-color: #ffc107;
+    color:white;
+}
+
+.division .calendarButton {
+	background: #398AB9;
+	border-radius: 10px;
+}
+
+#calheading {
+	color: #1C658C;
+	font-weight:600;
+}
+

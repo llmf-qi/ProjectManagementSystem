@@ -1,0 +1,346 @@
+@charset "UTF-8";
+
+
+body {
+	font-family: 'Inter', sans-serif;
+}
+
+#sidebar .sidebar-header {
+    font-family: 'Handjet', sans-serif;
+    padding: 20px;
+    font-style: normal;
+	font-weight: 400;
+	font-size: 50px;
+	line-height: 54px;
+	text-align: center;
+	width: 100%
+}
+
+#sidebar .sidebar-header .d-flex {
+
+	justify-content: center;
+}
+
+#sidebar {
+    background: #1C658C;
+    color: white;
+}
+
+#sidebar a {
+    color:white;
+}
+
+#sidebar ul li {
+	border-top: 1px solid white;
+}
+
+#sidebar ul li a {
+    width: 100%;
+	line-height: 80px;
+    padding: 10px;
+    font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	display: block;
+	align-items: center;
+	text-align: center;
+}
+
+#sidebar ul li a:hover {
+	background: #3C81A6
+}
+
+#sidebarContent {
+	width:100%;
+	padding-bottom: 20px;
+}
+
+#menu {
+	width:100%;
+}
+
+#menu li {
+	width:100%;
+}
+
+.divide {
+    border: 1px solid #1C658C;
+	position:absolute;
+	width:100%;
+   top: 50%;
+}
+
+.userInfo {
+	align-items: center;
+	bottom: 20px;
+}
+
+#user {
+	text-align: center;
+}
+
+#user #icon {
+	font-weight: 400;
+	font-size: 30px;
+}
+
+#user #name {
+	font-size: 20px;
+}
+
+#user #email {
+	font-size: 15px;
+	font-weight: 300
+}
+
+.division {
+	padding-left:16px;
+}
+
+.top {
+	top: 0;
+	height:50%;
+	border-bottom: 2px solid #1C658C;
+	padding-bottom: 16px;
+
+}
+.bottom {
+	bottom: 0;
+	height:50%;
+	padding-top: 16px;
+}
+
+.infoPart {
+	width: 800px;
+	height: 600px;
+	margin-left:0px;
+}
+
+.infoPart .groupInput {
+	width: 100%;
+	border: 1px solid #398AB9;
+	border-radius: 4px;
+}
+.infoPart .row {
+	padding-bottom: 20px;
+}
+
+.division .title {
+	font-weight: 700;
+font-size: 30px;
+line-height: 58px;
+color: #5584AC;
+}
+
+
+
+#emailInput {
+	padding-bottom:20px;
+}
+
+#addMemberBtn {
+	color: white;
+	background: #398AB9;
+	border-radius: 10px;
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+	border: none;
+	text-align: center;
+}
+
+#createButton {
+	height: 40px;
+	width: 100%;
+	color: white;
+	background: #398AB9;
+	border: none;
+	font-size: 15px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+.division textarea {
+	width:100%;
+	border: 1px solid #398AB9;
+	border-radius: 4px;
+
+}
+
+.top button {
+	color: white;
+	background: #D8D2CB;
+	border-radius: 10px;
+	width: 240px;
+	height: 160px;
+	cursor: pointer;
+	border: none;
+	text-align: center;
+	font-size: 48px;
+}
+
+.bottom button {
+	color: white;
+	background: #398AB9;
+	border-radius: 10px;
+	width: 240px;
+	height: 160px;
+	cursor: pointer;
+	border: none;
+	text-align: center;
+	font-size: 30px;
+	margin:5px;
+}
+
+#emptyMessage {
+	font-weight: 700;
+font-size: 27px;
+color: #D8D2CB;
+}
+
+.top .accountButton {
+	height: 40px;
+	width: 400px;
+	color: white;
+	background: #398AB9;
+	border: none;
+	font-size: 15px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+.bottom .accountButton {
+	height: 40px;
+	width: 400px;
+	color: white;
+	background: #398AB9;
+	border: none;
+	font-size: 15px;
+	cursor: pointer;
+	border-radius: 5px;
+	margin:0px;
+}
+
+.info {
+	font-weight: 600;
+font-size: 18px;
+color: #1C658C;
+}
+
+.userInput {
+	border: 1px solid #398AB9;
+	border-radius: 4px;
+	width: 400px;
+	height: 35px;
+}
+
+.top .col {
+	padding: 20px;
+}
+
+.bottom .col {
+	padding: 20px;
+}
+
+.memberInput {
+	width: 90%;
+	border: 1px solid #398AB9;
+	border-radius: 4px;
+	margin-right:8px;
+}
+
+#minusBtn {
+	border: none;
+	width:6%;
+	font-size: 15px;
+	cursor: pointer;
+	border-radius: 5px;
+	background: #B94839;
+	color: white;
+}
+.twoButtons button {
+	height: 40px;
+	width: 400px;
+	color: white;
+	background: #398AB9;
+	border: none;
+	font-size: 15px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+#quitBtn {
+	background: #B94839;
+}
+
+.twoButtons .col {
+	padding: 10px;
+}
+
+#groupTask {
+	color: #1C658C;
+	font-size: 25px;
+}
+
+.form-check-input {
+	border: 1px solid #1C658C;
+	top:50%;
+	font-size: 25px;
+}
+
+.form-check-label {
+	color: #1C658C;
+	font-size: 25px;
+}
+
+.form-popup {
+  display: none;
+  position: fixed;
+  top:0px;
+  left:50%;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+.form-popup p{
+	font-size: 25px;
+	font-weight: 600;
+	color: #1C658C;
+	left:50%
+}
+
+.form-popup label {
+	font-size: 20px;
+	font-weight: 400;
+	color: #1C658C;
+}
+
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+.form-container input {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+.form-container .btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+  background: #1C658C;
+}
+
+.form-container .cancel {
+	background: #B94839;
+}
