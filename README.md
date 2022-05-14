@@ -3,7 +3,7 @@ a simple website that allows users to create groups, add members to groups, add 
 This is a group project and was CSCI201 Final Project.
 What I did:
 - desgining UI and functionalities
-- writing all jsp pages except for the calendar one
+- writing all jsp s except for the calendar one
 - connect to Google Cloud SQL
 - implement Firebase Auth
 
